@@ -84,7 +84,8 @@ The app defines following CRUD APIs.
     DELETE /onlineBook-app/api/books/{isbn} - Remove a book from the inventory by ISBN.
 
     POST /onlineBook-app/api/books/{isbn}/reviews - Submit a review for a book.
+    String - Review for Exisitng Book
 
-    GET /onlineBook-app/api/authors/{authorId} - Retrieve details for a specific author
+    GET /onlineBook-app/api/author/{authorId} - Retrieve details for a specific author
 
 You can test them using postman or any other rest client.
