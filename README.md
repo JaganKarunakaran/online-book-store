@@ -65,7 +65,18 @@ The app defines following CRUD APIs.
     GET /onlineBook-app/api/books - Retrieve all books with filters for searching.
 
     POST /onlineBook-app/api/books - Add a new book to the inventory.
-
+    sample Book object 
+    {
+    "title": "book 1",
+    "isbnNum": "1234567891015",
+    "author":{
+    "authorId": "1",
+    "authorName":"Scott"
+    },
+    "authorId": "1"
+    }
+    Valid ISBN number - 13 digits
+    
     GET /onlineBook-app/api/books/{isbn} - Retrieve details for a specific book by ISBN.
     
     PUT /onlineBook-app/api/books/{isbn} - Update details of a book by ISBN.
